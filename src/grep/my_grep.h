@@ -1,5 +1,5 @@
-#ifndef SRC_GREP_S21_GREP_H_
-#define SRC_GREP_S21_GREP_H_
+#ifndef SRC_GREP_MY_GREP_H_
+#define SRC_GREP_MY_GREP_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -43,6 +43,6 @@ void print_flag_f(FILE *fp, char *template, char *name_fp);
 void print_flag_o(FILE *fp, char *template, char *name_fp, struct grep_flags *flag);
 void print_file(FILE *fp, char *template, struct grep_flags *flag, char *name_fp);
 void open_file(char *arg, char *template, struct grep_flags *flag);
-void s21_grep(int argc, char **argv);
+void my_grep(int argc, char **argv);
 
-#endif  // SRC_GREP_S21_GREP_H_
+#endif  // SRC_GREP_MY_GREP_H_

@@ -1,4 +1,4 @@
-#include "s21_cat.h"
+#include "my_cat.h"
 
 void delete_flags(char *arg) {
     memset(arg, '\0', strlen(arg));
@@ -251,7 +251,7 @@ void open_file(char *arg, struct cat_flags *flag) {
     }
 }
 
-void s21_cat(int argc, char **argv) {
+void my_cat(int argc, char **argv) {
     if (argc > 1) {
         int count = 0;
         struct cat_flags flag = {0};

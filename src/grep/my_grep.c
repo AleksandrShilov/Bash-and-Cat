@@ -1,4 +1,4 @@
-#include "s21_grep.h"
+#include "my_grep.h"
 
 void delete_flags(char *arg) {
     memset(arg, '\0', strlen(arg));
@@ -345,7 +345,7 @@ void open_file(char *arg, char *template, struct grep_flags *flag) {
     }
 }
 
-void s21_grep(int argc, char **argv) {
+void my_grep(int argc, char **argv) {
     if (argc > 1) {
         int count = 0;
         char template[8024] = {0};

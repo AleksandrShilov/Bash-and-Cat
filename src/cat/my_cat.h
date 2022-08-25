@@ -1,5 +1,5 @@
-#ifndef SRC_CAT_S21_CAT_H_
-#define SRC_CAT_S21_CAT_H_
+#ifndef SRC_CAT_MY_CAT_H_
+#define SRC_CAT_MY_CAT_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,6 +31,6 @@ void print_flag_T(FILE *fp);
 void print_file(FILE *fp, struct cat_flags *flag);
 void open_file(char *arg, struct cat_flags *flag);
 void clear_cat_flags(struct cat_flags *flag);
-void s21_cat(int argc, char **argv);
+void my_cat(int argc, char **argv);
 
-#endif  //  SRC_CAT_S21_CAT_H_
+#endif  //  SRC_CAT_MY_CAT_H_
